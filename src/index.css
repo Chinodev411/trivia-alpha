@@ -14,7 +14,7 @@
   border: 2px solid blue;
   border-radius: 5px;
   border-style: outset;
-  border-width: 0.5rem;
+  border-width: 0.4rem;
   padding: 10px;
   font-size: 20px;
   text-decoration:none;
@@ -64,4 +64,8 @@
   text-decoration-style: none;
   text-decoration-line: none;
   
+}
+
+.about-history {
+  text-align: justify;
 }

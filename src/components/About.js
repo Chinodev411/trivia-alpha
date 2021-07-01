@@ -10,7 +10,7 @@ const About = () => {
       </div>
       
 
-      <p>
+      <p className="about-history">
 
       Etymology of the word trivia
       First off, what is the singular form of trivia? I mean, you realize that trivia is plural, right?
