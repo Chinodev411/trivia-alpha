@@ -11,6 +11,8 @@ import About from './components/About';
 function App() {
   const [cards, setCards] = useState([]);
 
+ 
+
   const getCards = async () => {
     const url = "https://opentdb.com/api.php?amount=50&category=18";
     try {

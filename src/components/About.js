@@ -26,6 +26,11 @@ const About = () => {
 
       <a href='https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/'><p className="trivia">Read more from about source</p></a>
 
+      <td onClick={()=> window.open("https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/", "_blank")} ><p className="trivia" target="_blank" >Read more from about source</p></td>
+
+
+      <td onClick={()=> window.open("https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/", "_blank")} ><p className="trivia" target="_blank" >Read more from about source</p></td>
+
       </p>
     </div>
   );
