@@ -50,11 +50,21 @@
 }
 
 .image-pic, .About-trivia {
-  max-width: 400px;
+  width: 400px;
   max-height: 150px;
   justify-content: center;
   text-align: center;
   margin:auto;
+}
+
+.About-trivia {
+  margin-top: 20px;
+}
+
+.image-pic, .image-div {
+  width: 400px;
+  margin: auto;
+  
 }
 
 .card-q {
@@ -68,4 +78,8 @@
 
 .about-history {
   text-align: justify;
+  margin-top: 50px;
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 0.95rem;
+  
 }
