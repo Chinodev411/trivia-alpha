@@ -13,6 +13,11 @@
   background-color: aqua;
   border: 2px solid blue;
   border-radius: 5px;
+  border-style: outset;
+  border-width: 0.5rem;
+  padding: 10px;
+  font-size: 20px;
+  text-decoration:none;
 }
 
 .trivia {
@@ -22,7 +27,7 @@
   font-family: 'Righteous', cursive;
 }
 
-.video{
+.about{
   font-family: 'Righteous', cursive;
   justify-content: center;
   text-align: center;
@@ -42,4 +47,12 @@
   margin-top: 10rem;
   padding: 1rem;
 
+}
+
+.image-pic, .About-trivia {
+  max-width: 400px;
+  max-height: 150px;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
 }

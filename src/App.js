@@ -34,7 +34,7 @@ function App() {
       <h1>
         <a href='/'><p className="trivia">Trivia Alpha Search</p></a>
       </h1>
-      <Link to ='/about'><p className="video">About Trivia History</p></Link>
+      <Link to ='/about'><p className="about">About Trivia History</p></Link>
 
     </header>
     <main>
