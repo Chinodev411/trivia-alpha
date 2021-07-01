@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Route, Link } from 'react-router-dom';
 import Cards from './components/Cards';
 import CardDetails from './components/CardDetails';
-import NewCards from './components/NewCards';
+import About from './components/About';
 
 
 
@@ -34,12 +34,15 @@ function App() {
       <h1>
         <a href='/'><p className="trivia">Trivia Alpha Search</p></a>
       </h1>
-      <Link to ='/new'><p className="video">Find Trivia Videos</p></Link>
+      <Link to ='/about'><p className="video">About Trivia History</p></Link>
+
     </header>
     <main>
       <Route path='/' exact render={() => <Cards cards={cards} />} />
 
       <Route path='/answer/:correct_answer' component={CardDetails} />
+
+      <Route path='/about' exact render = {()=> <About />} />
 
     </main>
 
