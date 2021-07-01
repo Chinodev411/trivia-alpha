@@ -14,7 +14,7 @@ const Cards = ({cards}) => {
             return (
               <Link to={`/answer/${card.correct_answer}`} key={card.correct_answer}>
                 <div className='card'>
-                    <h6>{card.question}</h6>
+                    <h6 className="card-q">{card.question}</h6>
                 </div>
               </Link>
             );
