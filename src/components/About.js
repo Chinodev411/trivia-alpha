@@ -24,9 +24,9 @@ const About = () => {
       The term trivia, as we think of it today, dates back to 1589, referring to insignificant pieces of information, which were only interesting to a few educated folks.
 
 
-      <a href='https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/'><p className="trivia">Read more from about source</p></a>
+      {/* <a href='https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/'><p className="trivia">Read more from about source</p></a>
 
-      <td onClick={()=> window.open("https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/", "_blank")} ><p className="trivia" target="_blank" >Read more from about source</p></td>
+      <td onClick={()=> window.open("https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/", "_blank")} ><p className="trivia" target="_blank" >Read more from about source</p></td> */}
 
 
       <td onClick={()=> window.open("https://www.sporcle.com/blog/2017/06/a-short-history-of-trivia/", "_blank")} ><p className="trivia" target="_blank" >Read more from about source</p></td>
